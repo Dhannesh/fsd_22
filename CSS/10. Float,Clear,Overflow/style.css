@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.box {
+  padding: 10px;
+  /* height: 600px;
+  width: 600px; */
+  border: 2px solid red;
+  /* lorem20 */
+  /* overflow:scroll; */
+}
+
+.img1 {
+  float: left;
+  margin-right: 20px;
+  clear: right;
+}
+.p1 {
+  padding: 10px;
+  border: 2px solid green;
+}
+.p2 {
+  clear: right;
+}
+.img2 {
+  clear: left;
+  float: right;
+}

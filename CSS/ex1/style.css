@@ -1,0 +1,17 @@
+#box1{
+    background-color: #87bfff;
+    height: 350px;
+    width: 350px;
+    padding: 40px;
+    border-radius: 5px;
+    
+}
+#imgContainer{
+    text-align: center;
+}
+li{
+    color: white;
+}
+h2{
+    text-align: center;
+}

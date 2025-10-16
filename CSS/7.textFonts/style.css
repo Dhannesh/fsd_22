@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:wght@100..900&display=swap");
+
+body {
+  background-color: azure;
+  font-family: "Bitcount Single Ink", system-ui;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  /* text-shadow: 4px 4px 5px red, 5px 5px 1px blue; */
+  color: transparent;
+  text-shadow: 4px 4px 9px red;
+}

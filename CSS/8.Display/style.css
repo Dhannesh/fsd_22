@@ -1,0 +1,36 @@
+* {
+  /* margin: 0; */
+  /* padding: 10; */
+  box-sizing: border-box;
+  border: 1px solid red;
+  margin: 5px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.box1 {
+  height: 200px;
+  width: 300px;
+  background-color: aqua;
+  border: 1px solid blue;
+  display:none;
+}
+.box1 > p {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.box2 {
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+ .box2>p{
+    background-color: red;
+    color:whitesmoke;
+ }

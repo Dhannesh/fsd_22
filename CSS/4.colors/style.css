@@ -1,0 +1,13 @@
+body{
+    background-color: blue;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    color: #fff;
+    /* RGBA(0-1) */
+    /* background-color:rgb(255,255,0,0.1);  */
+    /* hsl, hsla same as rgb and hex color */
+    /* background-color: hsl(120,100%,50%); */
+    background-color: #e21616;
+}

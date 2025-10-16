@@ -1,0 +1,43 @@
+body{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+}
+
+h2{
+    background-color: blueviolet;
+}
+
+#foot{
+    font-size: 48px;
+    color: aliceblue;
+}
+
+.subTitle{
+    background-color: brown;
+    color: yellow;
+}
+
+.textBold{
+    font-weight: bold;
+    font-size: 16px;
+}
+#first{
+    font-size: 48px;
+}
+#second{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#third{
+    padding:20px
+}
+#first, #second, #third, h2, .textBold{
+    margin: 10px;
+}
+
+footer > p{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}

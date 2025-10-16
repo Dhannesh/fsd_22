@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.container {
+  background-color: antiquewhite;
+  height: 600px;
+  width: 300px;
+  margin: 100px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+.red {
+  background-color: red;
+  position: sticky;
+  top: 10px;
+  z-index: 2;
+  /* bottom:20px; */
+  /* left:50px; */
+}
+.green {
+  background-color: green;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.blue {
+  background-color: blue;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 290px;
+}
+.violet {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  /* top: 50px; */
+  z-index: 3;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 200px;
+  border-radius: 10px;
+}
+.spacer {
+  height: 300vh;
+}
